@@ -12,8 +12,11 @@ jobs:
  
       - name: Deploy artifacts
         run: |
+          echo 'listing ls'
           ls
+          echo 'listing public bf'
           ls public
           mkdir public/dest
+          echo 'listing public after'
           ls public
-          cp src public/dest/
+          cp -r ./src ./public/dest/
