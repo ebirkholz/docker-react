@@ -21,4 +21,5 @@ jobs:
           ls public
           cp -r ./src/ ./public/dest/
           echo 'listing public/dest/---------'
-          ls -r public/dest/
+          ls public/dest/
+          ls public/dest/src/
