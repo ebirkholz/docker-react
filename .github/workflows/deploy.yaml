@@ -15,4 +15,5 @@ jobs:
           ls
           ls public
           mkdir public/dest
+          ls public
           cp src public/dest/
