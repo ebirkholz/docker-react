@@ -20,3 +20,4 @@ jobs:
           echo 'listing public after'
           ls public
           cp -r ./src ./public/dest/
+          ls public/dest/
